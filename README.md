@@ -15,7 +15,7 @@ This tool is useful when Lidarr's internal search fails to find specific artists
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/Fryser1850/Lidarr-ID-Finder.git](https://github.com/Fryser1850/Lidarr-ID-Finder.git)
+    git clone https://github.com/Fryser1850/Lidarr-ID-Finder.git
     cd Lidarr-ID-Finder
     ```
 
