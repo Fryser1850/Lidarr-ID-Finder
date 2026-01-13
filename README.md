@@ -6,7 +6,7 @@ This tool is useful when Lidarr's internal search fails to find specific artists
 
 ## Features
 * 🔍 **Direct Search**: Queries the MusicBrainz API directly.
-* 🌍 **Internationalization**: The app support **English** and **French** 
+* 🌍 **EN and FR**: The app support **English** and **French** 
 * 📋 **One-click Copy**: Generates the `lidarr:mbid` format, ready to paste into Lidarr's search bar.
 
 ## 🚀 How to Run
