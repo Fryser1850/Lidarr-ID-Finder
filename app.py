@@ -69,9 +69,14 @@ st.write(t["subtitle"])
 
 # --- SAFE API LOGIC ---
 # Standard Open Source Logic:
-# 1. Check if the user defined a custom contact in .streamlit/secrets.toml (Advanced users)
-# 2. If not, use the GitHub Repo URL (Standard users)
-contact_info = st.secrets.get("mb_contact", REPO_URL)
+# 1. Try to get custom contact from secrets
+# 2. If secrets file is missing (FileNotFound) or key is missing, fallback to REPO_URL
+try:
+    contact_info = st.secrets["mb_contact"]
+except Exception:
+    # This block runs if .streamlit/secrets.toml does not exist
+    contact_info = REPO_URL
+
 musicbrainzngs.set_useragent(APP_NAME, VERSION, contact_info)
 
 # --- SEARCH LOGIC ---
