@@ -43,18 +43,3 @@ If you plan to use this tool heavily, please configure your own email to avoid s
 ## ⚠️ Disclaimer & Contributing
 
 I am not a professional developer. This project was entirely generated using AI (Google Gemini) to solve a personal need. While it works for me, the code might contain errors, inefficiencies, or non-standard practices.
-
-Contributions are highly encouraged! If you are a developer, please feel free to:
-
-Fork the repository
-
-Refactor the code
-
-Fix bugs or add new features
-
-Submit a Pull Request
-
-The goal is to make this tool useful for the entire self-hosted community.
-
-License
-MIT License
